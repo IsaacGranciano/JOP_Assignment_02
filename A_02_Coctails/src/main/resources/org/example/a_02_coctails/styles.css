@@ -1,0 +1,43 @@
+
+.vbox {
+    spacing: 15;
+    padding: 20;
+    alignment: center;
+    background-color: #B3C8CF;
+    border-radius: 10px;
+    -fx-background-color: #B3C8CF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0.0, 0, 1);
+}
+
+
+.text-field {
+    -fx-background-color: #89A8B2;
+    -fx-border-color: #b0b0b0;
+    -fx-border-radius: 5px;
+    -fx-padding: 10;
+}
+
+
+.button {
+    -fx-background-color: #789DBC;
+    -fx-text-fill: #E5E1DA;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #789DBC;
+}
+
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0.0, 0, 1);
+}
+
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-wrap-text: true;
+}
